@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Animal Page</title>
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<!-- css code -->
+<style>
+  /* Navigation Tab */
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    background: #2a323e;
+    color: white;
+    padding-block: 10px;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+  }
+
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: #1a5bbc;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    height: 170px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* logo image */
+  .header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+
+  /* first pengiun image  */
+  .class1 {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* heading  */
+  .class {
+    background-color: azure;
+    color: black;
+    font-family: 'Times New Roman';
+    width: auto ;
+    height: auto;
+  }
+
+  .carouselside {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  /* footer */
+  .footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1a5bbc;
+    color: white;
+    text-align: center;
+  }
+</style>
+
+<body>
+  <!-- header -->
+
+  <div class="header">
+    <img src="https://www.zsl.org/sites/default/files/styles/wysiwyg/public/image/2014-01/lz.gif?itok=yiyhLmH3"
+      alt="logo" /> <br><br><br><br>
+    <h1><strong><a href="/Homework-3/index.html"></a>ZSL WHIPSNADE ZOO</strong></h1>
+  </div>
+
+  <!-- Navigation Tab -->
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="/Homework-3/index.html">Home</a>
+    </li>
+    <li class="nav-item2">
+      <a class="nav-link" href="https://www.zsl.org/zsl-london-zoo/visitor-information" _black>Plan your Day</a>
+    </li>
+    <li class="nav-item3">
+      <a class="nav-link" href="https://www.zsl.org/zsl-whipsnade-zoo/whats-on" _blank>What's On</a>
+    </li>
+    <li class="nav-item3">
+      <a class="nav-link" href="/Homework-3/animal.html" _blank>Animals</a>
+    </li>
+  </ul>
+  </ul>
+
+  <br><br><br>
+
+  <!-- headline -->
+  <div class="headline">
+    <h1><u>About Penguins: facts and photos</u></h1> <br><br>
+  </div>
+
+  <!-- /first penguin image  / -->
+  <div class="class1">
+    <img
+      src="https://images.unsplash.com/photo-1598439210625-5067c578f3f6?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+      alt="pengiun" height="auto" width="auto">
+  </div>
+  <br><br><br>
+
+  <!-- paragraph 1 -->
+  <div class="class">
+    <p>Penguins are flightless seabirds that live almost exclusively below the equator. Some island-dwellers can be
+      found in warmer climates, but most—including emperor, adélie, chinstrap, and gentoo penguins—reside in and
+      around icy Antarctica.</p>
+  </div>
+
+  <!-- carousel -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://files.worldwildlife.org/wwfcmsprod/images/Penguin_Main_2COLUMN_Magazine_Winter2014/story_full_width/mjlvt9qe0_RAWP2115_mini.jpg"
+          class="d-block w-100" alt="penguins" width="100x" height="auto">
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://files.worldwildlife.org/wwfcmsprod/images/Penguin_Main_2COLUMN_Magazine_Winter2014/story_full_width/mjlvt9qe0_RAWP2115_mini.jpg"
+          class="d-block w-100" alt="penguins" width="100x" height="auto">
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://files.worldwildlife.org/wwfcmsprod/images/Penguin_Main_2COLUMN_Magazine_Winter2014/story_full_width/mjlvt9qe0_RAWP2115_mini.jpg"
+          class="d-block w-100" alt="penguins" width="100x" height="auto">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+
+  <br><br>
+  <!-- heading 2 -->
+  <div class="class2">
+    <h1>Life on land</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam dolor dolores! Minima, quasi alias fugiat
+      repellendus earum facilis! Facere sit iure fuga voluptates, exercitationem quaerat laboriosam numquam sed ea
+      repellat ex ratione cum aliquam aut delectus iusto dolore eos dolor a sapiente voluptate tempora saepe nulla
+      dicta. Saepe commodi tempore consequuntur omnis facilis magnam perferendis dignissimos iusto harum, earum
+      praesentium, recusandae repudiandae cum dolorem! Consequatur in facilis nihil repellat.</p>
+  </div>
+
+  <br><br>
+
+  <!-- heading 3-->
+  <div class="class3">
+    <h1>Breeding</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia temporibus commodi beatae quibusdam eum non
+      eligendi, aperiam rerum repudiandae debitis magnam, veniam reiciendis accusantium in dolore? Ut assumenda iure
+      voluptates velit totam enim odit iste quaerat id ad, obcaecati quasi dicta nam repellendus impedit voluptatum
+      dolorem officia rerum maxime? Dolore, odio deserunt numquam omnis ratione sint veniam mollitia enim perspiciatis
+      ea debitis adipisci ipsam at laudantium incidunt in deleniti nobis.</p>
+  </div>
+
+  <br><br>
+
+  <!-- heading 4-->
+  <div class="class4">
+    <h1>Conservation and threats</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia temporibus commodi beatae quibusdam eum non
+      eligendi, aperiam rerum repudiandae debitis magnam, veniam reiciendis accusantium in dolore? Ut assumenda iure
+      voluptates velit totam enim odit iste quaerat id ad, obcaecati quasi dicta nam repellendus impedit voluptatum
+      dolorem officia rerum maxime? Dolore, odio deserunt numquam omnis ratione sint veniam mollitia enim perspiciatis
+      ea debitis adipisci ipsam at laudantium incidunt in deleniti nobis.</p>
+  </div>
+
+
+
+  <!-- footer in a table-->
+  <footer>
+    <div class="footer">
+      <table style="width:90%;">
+        <tr>
+          <th><u> Address</u></th> <br>
+          <th><u>About<u></th> <br>
+          <th><u>About Workshops<u></th> <br>
+        </tr>
+        <br>
+        <tr>
+          <th>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, repudiandae!</th> <br>
+          <th> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, repudiandae!</th> <br>
+          <th> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, repudiandae!</th> <br>
+        </tr>
+      </table>
+      <br>
+ 
+
+  <img src="https://www.freepnglogos.com/uploads/copyright-png/copyright-logo-png-clipart-best-5.png" alt="copyright"
+    height="50px" />
+  <br>
+  <a href="https://www.nationalparks.uk/get-involved/">copy right</a>
+  </div>
+</footer>
+
+
+
+  <!-- Javascript link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
